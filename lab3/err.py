@@ -51,7 +51,7 @@ prediction = neural_networks(np.array(inp), weights)
 print(get_error(true_prediction, prediction))
 print(prediction)
 
-weights = [0.2, 0.3]
+weights = [15, 4]
 prediction = neural_networks(np.array(inp), weights)
 
 
